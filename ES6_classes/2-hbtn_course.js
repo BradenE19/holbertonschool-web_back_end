@@ -26,7 +26,7 @@ export default class HolbertonCourse {
   get students() {
     return this._students;
   }
-  
+
   set students(value) {
     if (!(value instanceof Array)) {
       throw TypeError('Students must be an array of strings');
